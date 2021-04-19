@@ -1,6 +1,6 @@
 node{
   stage('scm') {
-/*    final scmVars = checkout(scm)
+    final scmVars = checkout(scm)
     echo "GIT_COMMIT: ${scmVars.GIT_COMMIT}"
     echo "GIT_BRANCH: ${scmVars.GIT_BRANCH}"
     echo "GIT_URL: ${scmVars.GIT_URL}" 
@@ -15,6 +15,6 @@ node{
       
     GIT_COMMIT_MSG = sh (script: 'git log -1 --pretty=%B ${GIT_COMMIT_MSG}', returnStdout: true).trim()
     echo "GIT_COMMIT_MSG: ${GIT_COMMIT_MSG}"
- */
+
     }
 }
